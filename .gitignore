@@ -39,6 +39,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+.venv/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -147,3 +148,10 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Local Figma Make and agent state
+/.figma/design-context/
+/.plugins/
+/.opencode-skills/
+.claude-replay.*
+.tmp-*

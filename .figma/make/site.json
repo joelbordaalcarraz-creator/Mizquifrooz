@@ -1,0 +1,10 @@
+{
+  "description": "Enjoy a seamless online experience for customizing and ordering delicious frozen yogurt, fruits, and toppings with easy delivery options.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
