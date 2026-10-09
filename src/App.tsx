@@ -1,15 +1,16 @@
 import { useEffect, useMemo, useState } from "react";
-import logo from "./assets/miskyfrooz-logo.png";
-import iceCream from "./public/helado.png";
-import milkshakePoster from "./public/milshake.png";
-import mixPoster from "./public/mix.png";
-import oreoPoster from "./public/oreo.png";
-import dessertPoster from "./public/postre.png";
-import yogurtPoster from "./public/yogurt.png";
-import crepePoster from "./public/crepe.png";
-import toppingsImage from "./public/topings.png";
-import coverImage from "./public/portada.png";
-import menuCover from "./public/portadacarta.png";
+import logo from "./assets/miskyfrooz-logo.webp";
+import iceCream from "./public/helado.webp";
+import milkshakePoster from "./public/milshake.webp";
+import mixPoster from "./public/mix.webp";
+import oreoPoster from "./public/oreo.webp";
+import dessertPoster from "./public/postre.webp";
+import yogurtPoster from "./public/yogurt.webp";
+import crepePoster from "./public/crepe.webp";
+import galleryPoster from "./public/Galeria.webp";
+import toppingsImage from "./public/topings.webp";
+import coverImage from "./public/portada.webp";
+import menuCover from "./public/portadacarta.webp";
 
 type IconName =
   | "arrow"
@@ -81,11 +82,11 @@ function Heading({ children, as = "h2", className = "" }: { children: React.Reac
 }
 
 const images = {
-  hero: "https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&w=1400&q=90",
-  fruit: "https://images.unsplash.com/photo-1639771884984-88fa62ac7e19?auto=format&fit=crop&w=900&q=85",
-  strawberry: "https://images.unsplash.com/photo-1558896450-55e69a7592e8?auto=format&fit=crop&w=900&q=85",
-  smoothie: "https://images.unsplash.com/photo-1615478503562-ec2d8aa0e24e?auto=format&fit=crop&w=900&q=85",
-  shake: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=900&q=85",
+  hero: yogurtPoster,
+  fruit: mixPoster,
+  strawberry: yogurtPoster,
+  smoothie: milkshakePoster,
+  shake: crepePoster,
 };
 
 const products = [
@@ -102,6 +103,7 @@ const galleryImages = [
   { src: dessertPoster, alt: "Postres y promociones Miskyfrooz" },
   { src: mixPoster, alt: "Variedad de frozen yogurt Miskyfrooz" },
   { src: crepePoster, alt: "Waffles Miskyfrooz" },
+  { src: galleryPoster, alt: "Equipo Miskyfrooz disfrutando sus productos" },
 ];
 
 const toppings = [
