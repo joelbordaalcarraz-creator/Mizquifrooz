@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/carta/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/contactanos/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/caja/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
